@@ -1,0 +1,292 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.container{
+	display: flex;
+    padding: 30px;
+}
+
+/*header section*/
+header li{
+	list-style-type:none;
+	padding:8px;
+}
+header{
+	background-color:#DCFBE3  ;
+}
+a{
+	text-decoration:none;
+}
+
+.header-container{
+	width:95%;
+	margin:auto;
+	display:flex;
+	text-align:justify;
+}
+
+.logo{
+	font-size:40px;
+	font-weight:bold;
+}
+	
+.links{
+	display:flex;
+	font-size:18px;
+	align-items:center;
+
+}
+
+.maindivimage{
+	background-image:url(../image/slide.jpg);
+    width:100%;
+    height:100vh;
+    background-size: 100%;
+}
+.cont1 h2{
+	padding-top:15px;
+	padding-bottom:15px;
+
+}
+.box{
+	border:2px solid black;
+
+}
+.butt
+{
+	padding-bottom:15px;
+	padding-left:45%;
+	font-weight:bold;
+}
+.cont2{
+	padding:20px;
+}
+
+}
+img{
+	border:5px solid #ffff;
+}
+i{
+	
+	padding:30px;
+}
+li{
+	font-size:20px;
+}
+ul{
+	padding:10px;
+	padding-left:30%;
+}
+
+/*card section*/
+
+.cardcontainer{
+	margin:auto;
+
+}
+.rowcont{
+	display:flex;
+	flex-wrap:wrap;
+}
+.colcont{
+     padding:20px 30px;}
+.col{width:30%;}
+
+.card1
+{
+	background-color:#FBE9DC ;
+	border-radius:10px;
+}
+.card2
+{
+
+	background-color:#EEDCFB ;
+	border-radius:10px;
+}
+.card3
+{
+
+	background-color:#FBE9DC ;
+	border-radius:10px;
+	
+}
+.card4
+{
+	
+	background-color:#EEDCFB ;
+	border-radius:10px;
+		
+}
+.card5
+{
+	
+	background-color:#FBE9DC ;
+	border-radius:10px;
+	
+}
+.card6
+{
+	
+	background-color:#EEDCFB ;
+	border-radius:10px;
+	
+}
+
+h2{
+	text-align:center;
+	padding:20px;
+	text-align:left;
+}
+
+h3{
+	text-align:center;
+	padding:10px;
+}	
+
+p{
+	font-size:20px;
+	text-indent:15%;
+	margin-bottom:20px;
+}
+
+
+a:link{
+	text-decoration:none;
+}
+a:visited{
+	color:;
+}
+a:hover{
+	color:#00FFFF;
+	background-color:#ffffff;
+	font-size:20px;
+}
+a:active{
+	color:#FF0000;
+	background-color:#ffffff;
+}
+i:link{
+	text-decoration:none;
+}
+i:visited{
+	color:;
+}
+i:hover{
+	color:#00FFFF;
+	font-size:20px;
+}
+i:active{
+	color:#FF0000;
+}
+
+/*team details*/
+
+.tcontainer{
+	margin:auto;
+}
+.trow{
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+}
+.tcol{
+	width:33.33%;
+	padding:10px 10px ;
+}
+img{
+	border:5px solid #ffff;
+	border-radius:50%;
+}
+
+img:hover{display:block;}
+
+
+.tcard1
+{
+	background-color:#D7BDE2;
+	border-radius:10px;
+	padding:10px 50px;
+}
+.tcard2
+{
+	background-color:#9FE2BF;
+	border-radius:10px;
+	padding:10px 50px;
+}
+.tcard3
+{
+	background-color:#D7BDE2;
+	border-radius:10px;
+	padding:10px 50px;
+}
+.tcard4
+{
+	background-color:#9FE2BF;
+	border-radius:10px;
+	padding:10px 50px;
+}
+.tcard5
+{
+	background-color:#D7BDE2;
+	border-radius:10px;
+	padding:10px 50px;
+}
+.tcard6
+{
+	background-color:#9FE2BF;
+	border-radius:10px;
+	padding:10px 50px;
+}
+.tcontainer h2{
+	text-align:center;
+	padding-top:35px;
+	text-align:center;
+}
+
+.tcontainer h3{
+	text-align:center;
+	padding:10px;
+	color:#FAE5D3;
+}	
+
+.tcontainer p{
+	font-size:20px;
+	text-indent:10%;
+	padding:5px 20px;
+}
+.icn{
+	font-size:30px;
+	padding-top:10px;
+	position:relative;
+}
+.icn i{
+	background-color:;
+	width:40%;
+	position:absolute;
+	display:none;
+	opacity:0.5;
+}
+.tcol:hover i{display:block;}
+
+	.row:hover card{display:block;
+	transform:scale(1.4);
+	overflow:hidden;
+	background-color:gray;
+	}
+
+.ic-1{
+	padding:0px 40px;
+}
+.ic-2{
+	padding:0px 80px;
+}
+.ic-3{
+	padding:0px 120px;
+}
+.ic-4{
+	padding:0px 160px;
+}
+

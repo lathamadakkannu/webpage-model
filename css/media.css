@@ -1,0 +1,32 @@
+/*mobile */
+@media(min-width:320px){
+	/*header section*/
+		.container{width:100%;}
+		.maindivimage{height:30vh;
+			background-repeat:no repeat};
+		
+		
+		/*contact section*/
+		#contact{
+	background-color:#afaec8;
+	height:55vh;
+				}
+
+	}
+	/*ipad*/
+@media(min-width:650px){
+		.container{width:100%;}
+		.maindivimage{height:80vh}
+		}
+		
+/*laptop */
+@media(min-width:1000px){
+		.container{width:100%;}
+		.maindivimage{height:100vh}
+		
+		/*contact section*/
+		#contact{
+	background-color:#afaec8;
+	height:100vh;
+	}
+	.containerform{width:80%;}
